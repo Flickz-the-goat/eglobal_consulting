@@ -53,6 +53,7 @@ export default function Hero() {
           width={600}
           height={120}
           priority
+        className="mx-auto"
         />
       </div>
     </section>
