@@ -48,12 +48,12 @@ export default function WhySection() {
       <div className="flex flex-col lg:flex-row gap-4 mt-20">
         <div className="bg-[#d9d9d9] p-4 rounded-lg mx-auto lg:mx-0 max-w-[500px]">
           <div className="rounded-lg bg-gray-900 py-2 px-5 space-y-4 pb-20 ">
-            <h3 className="text-white p-2 font-main flex gap-2 justify-center md:justify-start items-center">
+            <h1 className="text-xl text-white p-2 font-main flex gap-2 justify-center md:justify-start items-center">
               <div className="rounded-full button-bg inline-block p-2">
                 <Zap className="stroke-none fill-gray-900" />{" "}
               </div>
               Rapid Healthcare Practice Results
-            </h3>
+            </h1>
             <p className="text-white text-center md:text-left">
               Experience measurable improvements in your healthcare
               practice&apos;s digital presence and revenue within the first 30
