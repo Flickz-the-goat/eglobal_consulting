@@ -91,9 +91,9 @@ export default function WhySection() {
               <div className="button-bg rounded-full w-fit h-fit p-2 mb-6 mx-auto md:mx-0">
                 <Percent className=" fill-gray-900" />
               </div>
-              <h3 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
+              <h1 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
                 Performance-Based Healthcare Consulting
-              </h3>
+              </h1>
               <p>
                 {" "}
                 Our success is directly tied to your practice&apos;s growth. We
@@ -104,9 +104,9 @@ export default function WhySection() {
               <div className="button-bg rounded-full w-fit h-fit p-2 mb-6 mx-auto md:mx-0">
                 <Eye className="stroke-gray-900" />
               </div>
-              <h3 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
+              <h1 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
                 Transparent Healthcare Business Process
-              </h3>
+              </h1>
               <p>
                 Clear, transparent processes with zero hidden strategies - trust
                 and compliance are our foundation in healthcare consulting.
@@ -118,9 +118,9 @@ export default function WhySection() {
               <div className="button-bg rounded-full w-fit h-fit p-2 mb-6 mx-auto md:mx-0">
                 <Handshake className="stroke-gray-900" />
               </div>
-              <h3 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
+              <h1 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
                 Hands-Off Healthcare Practice Management
-              </h3>
+              </h1>
               <p>
                 Simply share your practice data. We manage all business growth
                 processes, saving you time to focus on patient care.
@@ -130,9 +130,9 @@ export default function WhySection() {
               <div className="button-bg rounded-full w-fit h-fit p-2 mb-6 mx-auto md:mx-0">
                 <Stars className="stroke-none fill-gray-900" />
               </div>
-              <h3 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
+              <h1 className="text-center md:text-left font-main text-gray-900 font-semibold text-lg mb-2">
                 AI-Powered Healthcare Cost Efficiency
-              </h3>
+              </h1>
               <p>
                 Leverage advanced automation and modern technology to reduce
                 healthcare practice costs and enhance performance.

@@ -130,7 +130,7 @@ main {
     @apply hover:cursor-pointer hover:bg-[#86BC25] transition-colors;
   }
   h1 {
-    @apply font-main text-center md:text-left text-4xl md:text-6xl font-semibold;
+    @apply font-main text-center md:text-left text-4xl lg:text-6xl font-semibold;
     font-display: swap;
     /* Prevent layout shifts for headings */
     font-synthesis: none;

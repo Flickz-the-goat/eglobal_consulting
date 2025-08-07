@@ -6,11 +6,11 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <section className="flex min-h-screen center pt-20">
-            <div className="flex-1 space-y-8 md:text-left text-center">
+            <div className="flex-1 space-y-8 lg:text-left text-center">
                 <HeroInfo />
                 <h1>
                     Transform Your Healthcare Practice
-                    <br className="md:hidden block" /> with Performance-Based Consulting
+                    <br className="lg:hidden block" /> with Performance-Based Consulting
                 </h1>
                 <p>
                     Endorphin Global specializes in healthcare business consulting that
@@ -19,7 +19,7 @@ export default function Hero() {
                     cost reduction, and practice scaling while you focus on patient care.
                     Book a consultation today and see your practice transform.
                 </p>
-                <div className="flex gap-2 md:justify-start justify-center">
+                <div className="flex gap-2 lg:justify-start justify-center">
                     <Link
                         href={"https://app.centerfy.ai/v2/preview/YadZEw2HoLSsxybYdwv9"}
                         target="_blank"
@@ -33,17 +33,16 @@ export default function Hero() {
                         alt="healthcare consulting benefits"
                         height={54}
                         width={54}
-                        className="md:block hidden"
+                        className="lg:block hidden"
                         priority
                     />
                 </div>
             </div>
-            <div className="flex-1 md:block hidden">
+            <div className="relative object-contain w-[600px] h-[600px] flex-1 lg:block hidden">
                 <Image
                     src={"/hero-image.png"}
                     alt="healthcare practice consulting services"
-                    width={600}
-                    height={120}
+                    fill
                     priority
                     className="mx-auto"
                 />

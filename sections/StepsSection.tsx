@@ -20,14 +20,15 @@ export default function StepsSection() {
         </div>
 
         <div className="relative mt-20">
+        <div className="object-contain w-[1220px] h-[200px] absolute hidden lg:block top-1/2 left-0 right-0 -translate-y-1/2 z-0">
           <Image
             src={"/dashed-line.png"}
             alt="healthcare consulting process flow"
-            width={1220}
-            height={100}
-            className="absolute hidden lg:block top-1/2 left-0 right-0 -translate-y-1/2 z-0"
+            fill
+            className=""
             priority
           />
+          </div>
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 lg:gap-12 relative z-10">
             <div className="lg:translate-y-[-60px]">
               <StepsCard
