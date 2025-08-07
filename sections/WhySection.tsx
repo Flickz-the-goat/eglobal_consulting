@@ -20,7 +20,7 @@ export default function WhySection() {
         <div className="w-full h-full rounded-[10px] bg-transparent "></div>
       </div>{" "}
       <SectionInfo text="Why Choose Endorphin Global for Healthcare Consulting?" />
-      <h1 className="text-center px-0 md:px-20">
+      <h1 className="text-4xl md:text-6xl text-center px-0 md:px-20">
         From Practice Burnout to Sustainable{" "}
         <Image
           src={"/growth-design.png"}

@@ -7,11 +7,11 @@ export default function Security() {
     <section className="min-h-screen min-w-screen pt-20">
       <div className="center space-y-8 min-h-full">
         <SectionInfo text="Healthcare Trust & Compliance" />
-        <h1 className="text-center">
+        <h1 className="text-4xl md:text-6xl text-center">
           Built with{" "}
           <span className="text-[#86BC25]">Healthcare Compliance </span>
-          <Globe className="inline-block " />, Backed by{" "}
-          <span className="text-[#86BC25]">Enterprise Security</span>
+          <Globe className="inline-block w-[44px] h-[44px] fill-[#86BC25]" />,
+          Backed by <span className="text-[#86BC25]">Enterprise Security</span>
         </h1>
         <p className="text-center px-20">
           We follow the highest healthcare industry standards including HIPAA,
