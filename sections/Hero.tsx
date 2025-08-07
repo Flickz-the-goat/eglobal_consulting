@@ -1,4 +1,5 @@
 import HeroInfo from "@/components/HeroInfo";
+import { Heart } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,16 +10,8 @@ export default function Hero() {
         <HeroInfo />
         <h1>
           Transform Your Healthcare Practice
-          <br className="md:hidden block" />
-          <Image
-            src={"/hero-design.png"}
-            alt="healthcare practice growth design"
-            width={120}
-            height={54}
-            className="ml-2 inline-block"
-            priority
-          />
-          <br /> with Performance-Based Consulting
+          <br className="md:hidden block" />{" "}
+         with Performance-Based Consulting
         </h1>
         <p>
           Endorphin Global specializes in healthcare business consulting that
