@@ -1,6 +1,6 @@
 import IndustryCard from "@/components/IndustryCard";
 import SectionInfo from "@/components/SectionInfo";
-import { Globe } from "lucide-react";
+import { Globe, InfoIcon } from "lucide-react";
 
 export default function Security() {
   return (
@@ -40,7 +40,8 @@ export default function Security() {
           />
         </div>
 
-        <p className="text-center text-sm">
+        <p className="gap-2 text-center text-sm flex items-center justify-center">
+        <InfoIcon className="stroke-gray-500 w-4 h-4 inline-block"/>
           Healthcare data privacy is non-negotiable. We safeguard your practice
           information with enterprise-grade security protocols and
           HIPAA-compliant consulting services.
