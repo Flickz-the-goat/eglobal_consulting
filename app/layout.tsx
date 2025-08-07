@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Endorphin Global - Performance-Based Healthcare Business Consulting",
@@ -59,7 +60,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head></head>
-      <body className="">{children}</body>
+      <body className="">{children}
+                <SpeedInsights />
+            </body>
     </html>
   );
 }
